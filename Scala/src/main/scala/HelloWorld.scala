@@ -1,4 +1,4 @@
-package cwiczenia1
+package main.scala
 
 object HelloWorld extends App {
 
