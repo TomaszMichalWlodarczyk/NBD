@@ -1,0 +1,14 @@
+Zadanie 2 - Odpowiedz:
+
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8+xkWvr+duO0+RCiRJY+VYZVPyg2+LAA=
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s4503>; rel="up"
+Last-Modified: Sun, 21 Jun 2020 21:27:06 GMT
+ETag: "2eVumu01VN8lbRzKLnKh97"
+Date: Sun, 21 Jun 2020 21:53:44 GMT
+Content-Type: application/json
+Content-Length: 75
+
+{"name": "Jan Nowak", "nationality": "Poland", "height": 185, "weight": 80}
