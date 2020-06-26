@@ -1,0 +1,38 @@
+[
+  {
+    "keys": [
+      "flight.airline",
+      "city"
+    ],
+    "length": 2,
+    "_fields": [
+      "20304",
+      {
+        "low": 37,
+        "high": 0
+      }
+    ],
+    "_fieldLookup": {
+      "flight.airline": 0,
+      "city": 1
+    }
+  },
+  {
+    "keys": [
+      "flight.airline",
+      "city"
+    ],
+    "length": 2,
+    "_fields": [
+      "19977",
+      {
+        "low": 50,
+        "high": 0
+      }
+    ],
+    "_fieldLookup": {
+      "flight.airline": 0,
+      "city": 1
+    }
+  }
+]

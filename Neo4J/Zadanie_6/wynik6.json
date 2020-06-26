@@ -1,0 +1,54 @@
+// response był pusty ([]) więc zapisuję summary
+
+{
+  "statement": {
+    "text": "MATCH path=((lax:Airport{name:\"LAX\"})-[flight:CHEAPEST_FLIGHT*]->(airport:Airport{name:\"DAY\"}))\nWITH lax, LENGTH(path) AS length, EXTRACT(p in NODES(path) | p.name) AS fullPath, airport, REDUCE(cost=0, x IN flight | cost + x.price) as cost\nRETURN lax, fullPath, airport, cost ORDER BY cost",
+    "parameters": {}
+  },
+  "statementType": "r",
+  "counters": {
+    "_stats": {
+      "nodesCreated": 0,
+      "nodesDeleted": 0,
+      "relationshipsCreated": 0,
+      "relationshipsDeleted": 0,
+      "propertiesSet": 0,
+      "labelsAdded": 0,
+      "labelsRemoved": 0,
+      "indexesAdded": 0,
+      "indexesRemoved": 0,
+      "constraintsAdded": 0,
+      "constraintsRemoved": 0
+    }
+  },
+  "updateStatistics": {
+    "_stats": {
+      "nodesCreated": 0,
+      "nodesDeleted": 0,
+      "relationshipsCreated": 0,
+      "relationshipsDeleted": 0,
+      "propertiesSet": 0,
+      "labelsAdded": 0,
+      "labelsRemoved": 0,
+      "indexesAdded": 0,
+      "indexesRemoved": 0,
+      "constraintsAdded": 0,
+      "constraintsRemoved": 0
+    }
+  },
+  "plan": false,
+  "profile": false,
+  "notifications": [],
+  "server": {
+    "address": "localhost:7687",
+    "version": "Neo4j/3.4.0"
+  },
+  "resultConsumedAfter": {
+    "low": 0,
+    "high": 0
+  },
+  "resultAvailableAfter": {
+    "low": 15,
+    "high": 0
+  }
+}

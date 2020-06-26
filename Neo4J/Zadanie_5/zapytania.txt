@@ -1,0 +1,5 @@
+Zadanie5
+
+1. MATCH (movie:Movie) RETURN movie
+
+2. 

@@ -1,0 +1,55 @@
+[
+  {
+    "keys": [
+      "airport1",
+      "totalPath",
+      "airport2",
+      "cost",
+      "length"
+    ],
+    "length": 5,
+    "_fields": [
+      {
+        "identity": {
+          "low": 21,
+          "high": 0
+        },
+        "labels": [
+          "Airport"
+        ],
+        "properties": {
+          "name": "MSN"
+        }
+      },
+      [
+        "MSN",
+        "ORD",
+        "GRR"
+      ],
+      {
+        "identity": {
+          "low": 68,
+          "high": 0
+        },
+        "labels": [
+          "Airport"
+        ],
+        "properties": {
+          "name": "GRR"
+        }
+      },
+      196.5,
+      {
+        "low": 2,
+        "high": 0
+      }
+    ],
+    "_fieldLookup": {
+      "airport1": 0,
+      "totalPath": 1,
+      "airport2": 2,
+      "cost": 3,
+      "length": 4
+    }
+  }
+]
